@@ -10,6 +10,7 @@ import io.flutter.plugin.common.MethodChannel.Result;
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.PluginRegistry;
 
+import android.widget.Toast;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
