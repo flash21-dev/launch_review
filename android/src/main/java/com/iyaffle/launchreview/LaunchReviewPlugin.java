@@ -54,7 +54,7 @@ public class LaunchReviewPlugin implements MethodCallHandler, FlutterPlugin, Act
             }
 
             if (toastMessage == null){
-                toastMessage = 소중한 리뷰를 달아주세요";
+                toastMessage = "소중한 리뷰를 달아주세요";
             }
             Intent rateIntent = new Intent(Intent.ACTION_VIEW,
                     Uri.parse("market://details?id=" + appId));
